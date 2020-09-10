@@ -27,7 +27,7 @@ const Brainly = async (query, count) => {
 		headers: {
 			'host': 'brainly.com',
 			"content-type": "application/json; charset=utf-8",
-			"user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0"
+			"user-agent": "Mozilla/5.0 (Linux; Android 6.0; Redmi Note 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.112 Mobile Safari/537.36"
 		},
 		body: {
 			"operationName": "SearchQuery",
