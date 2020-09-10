@@ -23,6 +23,7 @@ const Brainly = async (query, count) => {
 	let service = {
 		uri: 'https://brainly.com/graphql/id',
 		json: true,
+                proxy: dataRes,
 		headers: {
 			'host': 'brainly.com',
 			"content-type": "application/json; charset=utf-8",
